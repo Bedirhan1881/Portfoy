@@ -1,0 +1,101 @@
+body{
+    background-image:linear-gradient(orange);
+}
+header{
+    position: relative;
+    left:10vw;
+    top:5vh;
+}
+.logo{
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    left:10vw;
+    gap:5vw;
+    font-size:1.3rem;
+}
+.anamenu{
+    transition:1.3s;
+}
+.anamenu:hover{
+    transform: scale(1.1);
+}
+
+.hakkimda{
+    transition:1.3s;
+}
+.hakkimda:hover{
+    transform: scale(1.1);
+}
+
+.iletisim{
+    transition:1.3s;
+}
+.iletisim:hover{
+    transform: scale(1.1);
+}
+.video1{
+    width: 20vw;
+
+    position:relative;
+    top:20vh;
+    left:5vw;
+    border-radius: 60px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.anahakkimda{
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+    position:relative;
+    right:13vw;
+    font-size:1.5rem;
+}
+.iletisimfooter{
+    position: relative;
+    top:50vh;
+    margin:2vh;
+    color:white;
+}
+.büyütme{
+    position: relative;
+    top:50vh;
+    color:orange;
+}
+.dillercard{
+    background-color:#f09319;
+    font-size:2em;
+    padding-bottom:20vh;
+    padding-left:3vw;
+    padding-top:5vh;
+    position:relative;
+    top:30vh;
+    color:#f09319;
+    
+}
+.html5{
+    position:absolute;
+    color:white;
+    font-size:1.5em;
+    left:20vw;
+}
+.css3{
+    position:absolute;
+    color:white;
+    font-size:1.5em;
+    right:20vw;
+}
+.diller{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    bottom:2vh;
+    
+}
